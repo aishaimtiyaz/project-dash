@@ -3,9 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alignment_Ques</title>
+    <style>
+h1{
+    text-align: center;
+}
+table,tr,td{
+    border:1px solid black;
+}
+.middle{
+    border-collapse: collapse;
+    width:100%;
+}
+.center{
+    text-align:center
+}
+.right{
+    text-align: right;
+}
+    </style>
 </head>
 <body>
-    
+    <h1>HTML Assignment #3</h1>
+    <table class="middle" id="table-1">
+        <tr>
+            <td id="t11">left</td>
+            <td id="t12" class="center">center</td>
+            <td class="right"id="t13">right</td>
+
+        </tr>
+        <tr>
+            <td >left</td>
+            <td class="center">center</td>
+            <td class="right">right</td>
+
+        </tr>
+        <tr>
+            <td >left</td>
+            <td class="center">center</td>
+            <td class="right">right</td>
+
+        </tr>
+    </table><br>
+    <table class="middle" id="table-2">
+        <tr><td id="21" colspan="6">row1</td></tr>
+        <tr><td rowspan="4">row2</td>
+            <td>row2</td>
+            <td>row2</td>
+            <td>row2</td>
+            <td>row2</td>
+        </tr>
+        <tr>
+            <td>row3</td>
+            <td colspan="3" rowspan="2">row3</td>
+            <td>row3</td>
+        </tr>
+        <tr>
+            <td>row4</td>
+            <td>row4</td>
+            <!-- <td>row4</td> -->
+        </tr>
+        <tr>
+            <td>row5</td>
+            <td>row5</td>
+            <td>row5</td>
+            <td>row5</td>
+            <td>row5</td>
+        </tr>
+    </table><br>
+    <table class="middle" id="table-3">
+        <tr><td bgcolor="green">row1</td></tr>
+        <tr><td id="t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="sports image"></td></tr>
+        <tr><td bgcolor="blue">row3</td></tr>
+    </table>
 </body>
 </html>
